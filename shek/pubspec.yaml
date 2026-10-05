@@ -1,0 +1,24 @@
+name: price_label_scanner
+description: "Arabic barcode scanner and thermal price label printer."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.13.5 <4.0.0"
+  flutter: ">=3.47.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: 7.4.2
+  print_bluetooth_thermal: 1.2.5
+  esc_pos_utils_plus: 2.0.4
+  image: 4.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+
+flutter:
+  uses-material-design: true
